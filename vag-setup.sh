@@ -3,7 +3,10 @@ sudo apt-get update
 echo "Installing Git.."
 sudo apt-get install -y git
 echo "Installing Maven.."
-sudo apt-get install -y maven
+sudo apt-get purge maven maven2 maven3
+sudo apt-add-repository ppa:andrei-pozolotin/maven3
+sudo apt-get update
+sudo apt-get install maven3
 sudo apt-get install -y software-properties-common python-software-properties
 echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 echo "Installing Java 8.."
