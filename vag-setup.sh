@@ -18,6 +18,6 @@ sudo apt-get update
 sudo apt-get install openjdk-8-jdk
 sudo update-alternatives --config java
 sudo update-alternatives --config javac
-git clone https://github.com/spring-projects/spring-petclinic.git
-cd spring-petclinic
+git clone https://github.com/pratikkanungo/RestfulDemo.git
+cd RestfulDemo
 mvn spring-boot:run
