@@ -11,9 +11,12 @@ These instructions will get you a copy of the project up and running on your loc
 Lombok plugin is required in Intellij, Unfortunately Lombok plaugin is not available in Eclipse.
 
 Software Requiremets
+```
+Java 8
 Vagrant
 Oracle Virtual Box
 
+```
 ### Installing
 
 git clone https://github.com/pratikkanungo/RestfulDemo.git
